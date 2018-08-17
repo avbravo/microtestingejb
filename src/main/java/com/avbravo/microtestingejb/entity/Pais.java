@@ -25,5 +25,31 @@ public class Pais {
         return "Pais{" + "idpais=" + idpais + ", pais=" + pais + '}';
     }
 
+    public String getIdpais() {
+        return idpais;
+    }
+
+    public void setIdpais(String idpais) {
+        this.idpais = idpais;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public List<UserInfo> getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(List<UserInfo> userInfo) {
+        this.userInfo = userInfo;
+    }
+
+    
+    
     
 }

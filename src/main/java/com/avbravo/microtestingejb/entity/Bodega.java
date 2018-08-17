@@ -29,6 +29,46 @@ public class Bodega {
         return "Bodega{" + "idbodega=" + idbodega + ", telefono=" + telefono + ", direccion=" + direccion + '}';
     }
 
+    public String getIdbodega() {
+        return idbodega;
+    }
+
+    public void setIdbodega(String idbodega) {
+        this.idbodega = idbodega;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public String getActivo() {
+        return activo;
+    }
+
+    public void setActivo(String activo) {
+        this.activo = activo;
+    }
+
+    public List<UserInfo> getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(List<UserInfo> userInfo) {
+        this.userInfo = userInfo;
+    }
+
    
 
    

@@ -7,8 +7,7 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+
 public class Color {
 
     @Id
@@ -26,6 +25,38 @@ public class Color {
         this.idcolor = idcolor;
         this.autoincrementable = autoincrementable;
         this.activo = activo;
+    }
+
+    public String getIdcolor() {
+        return idcolor;
+    }
+
+    public void setIdcolor(String idcolor) {
+        this.idcolor = idcolor;
+    }
+
+    public Integer getAutoincrementable() {
+        return autoincrementable;
+    }
+
+    public void setAutoincrementable(Integer autoincrementable) {
+        this.autoincrementable = autoincrementable;
+    }
+
+    public String getActivo() {
+        return activo;
+    }
+
+    public void setActivo(String activo) {
+        this.activo = activo;
+    }
+
+    public List<UserInfo> getUserInfo() {
+        return userInfo;
+    }
+
+    public void setUserInfo(List<UserInfo> userInfo) {
+        this.userInfo = userInfo;
     }
 
    
