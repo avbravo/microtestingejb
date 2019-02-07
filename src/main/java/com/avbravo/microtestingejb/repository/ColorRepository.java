@@ -30,12 +30,5 @@ public class ColorRepository extends Repository<Color> {
         return mongoClientProvider.getMongoClient();
     }
 
-    @Override
-    public Object findById(String key, String value) {
-       return search(key,value); 
-    }
-    @Override
-    public Object findById(String key, Integer value) {
-        return search(key,value);
-    }
+  
 }

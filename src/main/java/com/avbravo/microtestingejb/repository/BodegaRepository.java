@@ -27,13 +27,6 @@ public class BodegaRepository extends Repository<Bodega> {
     public BodegaRepository(){
         super(Bodega.class,"microtesting","bodega");
     }
-    @Override
-    public Object findById(String key, String value) {
-       return search(key,value); 
-    }
-    @Override
-    public Object findById(String key, Integer value) {
-        return search(key,value);
-    }
+    
 
 }

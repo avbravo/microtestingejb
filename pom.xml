@@ -25,12 +25,12 @@
          <dependency>
             <groupId>com.github.avbravo</groupId>
             <artifactId>avbravoutils</artifactId>
-            <version>0.31</version>
+            <version>0.37.3</version>
         </dependency>
          <dependency>
             <groupId>com.github.avbravo</groupId>
             <artifactId>ejbjmoordb</artifactId>
-            <version>0.8.8</version>
+            <version>0.18</version>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
